@@ -254,21 +254,46 @@ td {
 .lineS {
   border: 1px solid var(--sky);
 }
-td p{
-  padding: 2%;
+td p,td button{
+  padding: 3px 8px;
+  font-size: 13px;
+}
+th{
+  padding: 6px 10px;
+  font-size: 16px;
 }
 input{
   font-size: 17px;
 }
 td button{
   background-color: transparent;
-  font-size: 17px;
+  font-size: 14px;
   height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
-td button:hover{
+/* td button:hover{
   background-color: aliceblue;
-}
+} */
 td.bn:hover{
   border: 1px solid var(--pink);
+  background-color: rgb(248, 179, 202);
+}
+.notify {
+
+  border-radius: 5px;
+  padding: 12px;
+  min-width: 100%;
+}
+.success{
+  border: 1px solid rgb(131, 201, 162);
+  background-color: rgb(187, 238, 210);
+  color: rgb(27, 122, 69);;
+}
+.error{
+  border: 1px solid rgb(201, 131, 140);
+  background-color: rgb(238, 187, 187);
+  color: rgb(141, 44, 57);
+}
+.fw{
+  font-weight: 600;
 }
